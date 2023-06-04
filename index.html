@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <section>
+        
+        <form action="POST" action="guardform.php">
+            <img src="img/pdc.jpg" alt="pdc">
+            <p>Registro de trabajo <i class='bx bxs-car-mechanic'></i></p>
+            <div class="cliente">
+                <i class='bx bxs-user'></i>
+                <label form="Cliente">Cliente:</label>
+                <input type="text" id="Cliente" name="Cliente" required>
+            </div>
+
+            <div class="producto">
+                <i class='bx bxl-product-hunt' ></i>
+                <label form="Product">Producto: </label>
+                <input type="text" id="Product" name="Product" required>
+            </div>
+
+            <div class="codigo">
+                <i class='bx bx-barcode' ></i>
+                <label form="Codigo">Código:</label>
+                <input type="text" id="Codigo" name="Codigo" required>
+            </div>
+            
+            <div class="numSerie">
+                <i class='bx bxs-briefcase-alt-2' ></i>
+                <label form="SerialNumber">PDC S/N:</label>
+                <input type="text" id="SerialNumber" name="SerialNumber" required>
+            </div>
+
+            <div class="buttons">
+                <button type="submit">Guardar</button>
+                <button type="submit">Consultar</button>
+            </div>
+            
+        </form>
+
+        
+    </section>
+</body>
+</html>
