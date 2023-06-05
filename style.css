@@ -30,6 +30,7 @@ p{
 form{
     width: 100%;
     background-color: #fff;
+    box-shadow:0px 5px 26px 8px blue;
     padding: 20px;
     border-radius: 15px;
     align-items: center;
