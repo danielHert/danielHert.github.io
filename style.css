@@ -47,6 +47,7 @@ input{
     width: 50%;
     border-top:none;
     border-left: none;
+    outline:none;
     border-right: none;
     border-bottom: rgba(63, 63, 255, 0.971);
 }
